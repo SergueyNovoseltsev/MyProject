@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017"],
+    "target": "ESNext",
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["app/components/*"],
+      "features/*": ["app/features/*"],
+      "hooks/*": ["app/hooks/*"],
+      "services/*": ["app/services/*"],
+      "models/*": ["app/models/*"]
+    }
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}
